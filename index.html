@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Js Referance</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="style/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="style/css/style.css">
+  <link rel="stylesheet" href="style/css/media.css">
+
+</head>
+
+<body>
+  <div class="container mt-5 justify-content-center">
+    <h1 class="text-center mb-5 bg-info">JavaScript Arithmetic Operators</h1>
+    <hr>
+    <div class="row">
+      <!------------------------------ Arithmetic -------------------------------->
+      <!-- add -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The + Operator</h2>
+          <p>y = 5, calculate x = y + 2:</p>
+          <p id="demo1"></p>
+          <button class="btn btn-outline-danger" type="button" onclick="add()">click</button>
+          <hr>
+        </div>
+      </div>
+
+      <!-- sub -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The - Operator</h2>
+          <p>y = 10, calculate x = y - 2:</p>
+          <p id="demo2"></p>
+          <button class="btn btn-outline-danger" type="button" onclick="sub()">click</button>
+          <hr>
+        </div>
+      </div>
+
+      <!-- multiplication -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The * Operator</h2>
+          <p>y = 20, calculate x = y * 2:</p>
+          <p id="demo3"></p>
+          <button class="btn btn-outline-danger" type="button" onclick="mul()">click</button>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Exponentiation -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The ** Operator</h2>
+          <p>y = 5, calculate x = y ** 2:</p>
+          <p id="demo4"></p>
+          <button class="btn btn-outline-danger" type="button" onclick="exp()">click</button>
+          <hr>
+        </div>
+      </div>
+
+      <!-- division -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The / Operator</h2>
+          <p>y = 10, calculate x = y / 2:</p>
+          <p id="demo5"></p>
+          <button class="btn btn-outline-danger" type="button" onclick="divi()">click</button>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Remainder -->
+
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The % Operator</h2>
+          <p>y = 10, calculate x = y % 2:</p>
+          <p id="demo6"></p>
+          <button class="btn btn-outline-danger" type="button" onclick="rem()">click</button>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Pre increment	 -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The ++ Operator(pre)</h2>
+          <p>y = 5, calculate x = ++y:</p>
+          <p id="demo7"></p>
+          <p id="demo8"></p>
+          <p><strong>Note:</strong> y is incremented before it is assigned to x (pre-incremented).</p>
+          <button class="btn btn-outline-danger" type="button" onclick="pre()">click</button>
+          <hr>
+        </div>
+      </div>
+
+
+      <!-- post increment	 -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The ++ Operator(post)</h2>
+          <p>y = 5, calculate x = y++:</p>
+          <p id="demo9"></p>
+          <p id="demo10"></p>
+          <p><strong>Note:</strong> y is incremented after it is assigned to x (post-incremented).</p>
+          <button class="btn btn-outline-danger" type="button" onclick="post()">click</button>
+          <hr>
+        </div>
+      </div>
+
+
+
+
+      <!-- Pre decrement	 -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The -- Operator(pre)</h2>
+          <p>y = 5, calculate x = --y:</p>
+          <p id="demo11"></p>
+          <p id="demo12"></p>
+          <p><strong>Note:</strong> y is decremented before it is assigned to x (pre-decremented).</p>
+          <button class="btn btn-outline-danger" type="button" onclick="pre_d()">click</button>
+          <hr>
+        </div>
+      </div>
+
+
+      <!-- post decrement	 -->
+      <div class="col-sm-6  text-center">
+        <div class="mt-5">
+          <h2>The -- Operator(post)</h2>
+          <p>y = 5, calculate x = y--:</p>
+          <p id="demo13"></p>
+          <p id="demo14"></p>
+          <p><strong>Note:</strong> y is decremented after it is assigned to x (post-decremented).</p>
+          <button class="btn btn-outline-danger" type="button" onclick="post_d()">click</button>
+          <hr>
+        </div>
+      </div>
+      <!------------------------------ Arithmetic end-------------------------------->
+
+      <!------------------------------ Assignment start-------------------------------->
+      <h1 class="text-center mb-5 mt-5 bg-danger text-white">JavaScript Assignment Operators</h1>
+      <hr>
+      <div class="row">
+        <!------------------------------ Assignment -------------------------------->
+        <!-- equal -->
+        <div class="col-sm-6  text-center">
+          <div class="mt-5">
+            <h2>The = Operator</h2>
+            <p>x = 10, y = 5, calculate x = y:</p>
+            <p id="demo15"></p>
+            <button class="btn btn-outline-danger" type="button" onclick="equal()">click</button>
+            <hr>
+          </div>
+        </div>
+
+        <!-- Addition equal -->
+        <div class="col-sm-6  text-center">
+          <div class="mt-5">
+            <h2>The += Operator</h2>
+            <p>x = 10 and y = 5, calculate x += y:</p>
+            <p id="demo16"></p>
+            <button class="btn btn-outline-danger" type="button" onclick="add_e()">click</button>
+            <hr>
+          </div>
+        </div>
+
+        <!-- size -->
+        <div class="col-sm-6  text-center">
+          <div class="mt-5">
+            <h2>The : Operator</h2>
+            <p id="demo17"></p>
+            <button class="btn btn-outline-danger" type="button" onclick="size()">click</button>
+            <hr>
+          </div>
+        </div>
+
+
+      </div>
+      <!------------------------------ Assignment end -------------------------------->
+
+
+      <!------------------------------ String start-------------------------------->
+      <h1 class="text-center mb-5 mt-5 bg-warning text-white">JavaScript string Operators</h1>
+      <hr>
+      <div class="row">
+        <!------------------------------ String -------------------------------->
+        <div class="col-sm-6  text-center">
+          <div class="mt-5">
+            <h2>The + Operator</h2>
+            <p>The + operator concatenates (adds) strings:</p>
+            <p id="demo18"></p>
+            <button class="btn btn-outline-danger" type="button" onclick="con()">click</button>
+            <hr>
+          </div>
+        </div>
+
+        <div class="col-sm-6  text-center">
+          <div class="mt-5">
+            <h2>The += Operator</h2>
+            <p>The += operator concatenates (adds) strings:</p>
+            <p id="demo"></p>
+            <button class="btn btn-outline-danger" type="button" onclick="con()">click</button>
+            <hr>
+          </div>
+        </div>
+
+      </div>
+      <!------------------------------ Assignment end -------------------------------->
+
+
+      <!------------------------------ String start-------------------------------->
+      <h1 class="text-center mb-5 mt-5 bg-warning text-white">JavaScript Comparison Operators</h1>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6  text-center">
+          <div class="mt-5">
+            <h2>The += Operator</h2>
+            <p>The += operator concatenates (adds) strings:</p>
+            <p id="demo"></p>
+            <button class="btn btn-outline-danger" type="button" onclick="con()">click</button>
+            <hr>
+          </div>
+        </div>
+
+      </div>
+      <!------------------------------ String -------------------------------->
+
+    </div>
+
+  </div>
+  <!-- js link -->
+  <script src="js/bootstrap_js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
