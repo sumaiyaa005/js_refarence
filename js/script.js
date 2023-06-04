@@ -114,3 +114,13 @@ function con() {
 
   document.getElementById("demo19").innerHTML = text1;
 }
+
+function equ_com() {
+  let x = 5;
+  document.getElementById("demo20").innerHTML = x == 8;
+}
+
+function les_com() {
+  let x = 5;
+  document.getElementById("demo21").innerHTML = x <= 8;
+}
