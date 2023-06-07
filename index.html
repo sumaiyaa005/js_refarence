@@ -19,7 +19,7 @@
     <div class="row">
       <!------------------------------ Arithmetic -------------------------------->
       <!-- add -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The + Operator</h2>
           <p>y = 5, calculate x = y + 2:</p>
@@ -30,7 +30,7 @@
       </div>
 
       <!-- sub -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The - Operator</h2>
           <p>y = 10, calculate x = y - 2:</p>
@@ -41,7 +41,7 @@
       </div>
 
       <!-- multiplication -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The * Operator</h2>
           <p>y = 20, calculate x = y * 2:</p>
@@ -52,7 +52,7 @@
       </div>
 
       <!-- Exponentiation -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The ** Operator</h2>
           <p>y = 5, calculate x = y ** 2:</p>
@@ -63,7 +63,7 @@
       </div>
 
       <!-- division -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The / Operator</h2>
           <p>y = 10, calculate x = y / 2:</p>
@@ -75,7 +75,7 @@
 
       <!-- Remainder -->
 
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The % Operator</h2>
           <p>y = 10, calculate x = y % 2:</p>
@@ -86,13 +86,12 @@
       </div>
 
       <!-- Pre increment	 -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
           <h2>The ++ Operator(pre)</h2>
           <p>y = 5, calculate x = ++y:</p>
           <p id="demo7"></p>
           <p id="demo8"></p>
-          <p><strong>Note:</strong> y is incremented before it is assigned to x (pre-incremented).</p>
           <button class="btn btn-outline-danger" type="button" onclick="pre()">click</button>
           <hr>
         </div>
@@ -100,13 +99,12 @@
 
 
       <!-- post increment	 -->
-      <div class="col-sm-6  text-center">
+      <div class="col-sm-3  text-center">
         <div class="mt-5">
-          <h2>The ++ Operator(post)</h2>
+          <h3>The ++ Operator(post)</h3>
           <p>y = 5, calculate x = y++:</p>
           <p id="demo9"></p>
           <p id="demo10"></p>
-          <p><strong>Note:</strong> y is incremented after it is assigned to x (post-incremented).</p>
           <button class="btn btn-outline-danger" type="button" onclick="post()">click</button>
           <hr>
         </div>
@@ -122,7 +120,6 @@
           <p>y = 5, calculate x = --y:</p>
           <p id="demo11"></p>
           <p id="demo12"></p>
-          <p><strong>Note:</strong> y is decremented before it is assigned to x (pre-decremented).</p>
           <button class="btn btn-outline-danger" type="button" onclick="pre_d()">click</button>
           <hr>
         </div>
@@ -136,7 +133,6 @@
           <p>y = 5, calculate x = y--:</p>
           <p id="demo13"></p>
           <p id="demo14"></p>
-          <p><strong>Note:</strong> y is decremented after it is assigned to x (post-decremented).</p>
           <button class="btn btn-outline-danger" type="button" onclick="post_d()">click</button>
           <hr>
         </div>
@@ -149,7 +145,7 @@
       <div class="row">
         <!------------------------------ Assignment -------------------------------->
         <!-- equal -->
-        <div class="col-sm-6  text-center">
+        <div class="col-sm-3  text-center">
           <div class="mt-5">
             <h2>The = Operator</h2>
             <p>x = 10, y = 5, calculate x = y:</p>
@@ -160,7 +156,7 @@
         </div>
 
         <!-- Addition equal -->
-        <div class="col-sm-6  text-center">
+        <div class="col-sm-3  text-center">
           <div class="mt-5">
             <h2>The += Operator</h2>
             <p>x = 10 and y = 5, calculate x += y:</p>
@@ -171,7 +167,7 @@
         </div>
 
         <!-- size -->
-        <div class="col-sm-6  text-center">
+        <div class="col-sm-3  text-center">
           <div class="mt-5">
             <h2>The : Operator</h2>
             <p id="demo17"></p>
@@ -190,7 +186,7 @@
       <hr>
       <div class="row">
         <!------------------------------ String -------------------------------->
-        <div class="col-sm-6  text-center">
+        <div class="col-sm-3  text-center">
           <div class="mt-5">
             <h2>The + Operator</h2>
             <p>The + operator concatenates (adds) strings:</p>
@@ -200,7 +196,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6  text-center">
+        <div class="col-sm-3  text-center">
           <div class="mt-5">
             <h2>The += Operator</h2>
             <p>The += operator concatenates (adds) strings:</p>
@@ -239,18 +235,63 @@
           </div>
 
         </div>
-
-
-
-
         <!------------------------------ Comparison -------------------------------->
 
-      </div>
 
+        <!------------------------------ start-------------------------------->
+        <h1 class="text-center mb-5 mt-5 bg-primary text-white">JavaScript Conditional Operators</h1>
+        <hr>
+        <div class="row">
+          <div class="col-sm-12  text-center">
+            <div class="mt-5">
+              <h2>The ? : Operator</h2>
+              <p>Input your age and click the button:</p>
+              <p id="r_age"></p>
+              <input id="age" value="">
+              <button class="btn btn-outline-warning" onclick="age()">click</button>
+              <hr>
+            </div>
+          </div>
+        </div>
+        <!------------------------------ Comparison -------------------------------->
+
+        <!------------------------------ start-------------------------------->
+        <h1 class="text-center mb-5 mt-5 bg-primary text-white">JavaScript Logical Operators</h1>
+        <hr>
+        <div class="row">
+          <div class="col-sm-3 text-center">
+            <div class="mt-5">
+              <h2>The && Operator (Logical AND)</h2>
+              <p>The && operator returns true if both expressions are true, otherwise false:</p>
+              <p>x=3;y=6 </p>
+              <p>1. (x < 10 && y> 1) = true/false
+                  <br> 2.(x < 10 && y < 1)=true/false</p>
+                    <p id="and"></p>
+                    <hr>
+            </div>
+          </div>
+
+          <div class="col-sm-3 text-center mt-5">
+
+
+            <h2>The || Operator (logical OR)</h2>
+
+            <p>The || operator returns true if one or both expressions are true, otherwise false:</p>
+            <p id="or"></p>
+            <hr>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- js link -->
-    <script src="js/bootstrap_js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <!------------------------------ Comparison -------------------------------->
+
+
+  </div>
+
+  </div>
+  <!-- js link -->
+  <script src="js/bootstrap_js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

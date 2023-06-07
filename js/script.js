@@ -124,3 +124,21 @@ function les_com() {
   let x = 5;
   document.getElementById("demo21").innerHTML = x <= 8;
 }
+
+function age() {
+  let age = document.getElementById("age").value;
+  let text = age < 18 ? "Too young" : "Old enough";
+  document.getElementById("r_age").innerHTML = text + " to vote.";
+}
+
+let x = 6;
+let y = 3;
+document.getElementById("and").innerHTML =
+  "1." + (x < 10 && y > 1) + "<br>" + "2." + (x < 10 && y < 1);
+
+document.getElementById("or").innerHTML =
+  (x === 5 || y === 5) +
+  "<br>" +
+  (x === 6 || y === 5) +
+  "<br>" +
+  (x === 6 || y === 3);
